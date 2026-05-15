@@ -1,0 +1,5 @@
+{
+  "bull": {"technical": 0.60, "fundamental": 0.25, "industry": 0.15},
+  "bear": {"technical": 0.25, "fundamental": 0.50, "industry": 0.25},
+  "mixed": {"technical": 0.40, "fundamental": 0.35, "industry": 0.25}
+}

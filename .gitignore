@@ -1,0 +1,21 @@
+# 环境变量文件（含敏感信息）
+.env
+.env.local
+.env.production
+
+# Python字节码
+__pycache__/
+*.py[cod]
+*.pyc
+
+# 日报存档（用户数据，不应纳入版本控制）
+diary/
+alert_logs/
+
+# 备份文件
+*.backup.*
+*.bak
+
+# 临时文件
+*.tmp
+*.log

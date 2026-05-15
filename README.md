@@ -20,7 +20,7 @@
 ## 📁 目录结构
 
 ```
-a-stock-multi-source-trading-system/
+Stratapro/
 ├── SKILL.md              ← 主入口（AI Agent阅读）
 ├── README.md             ← 本文件
 ├── docs/
@@ -51,8 +51,8 @@ a-stock-multi-source-trading-system/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/503496348-ops/a-stock-multi-source-trading-system.git
-cd a-stock-multi-source-trading-system
+git clone https://github.com/503496348-ops/Stratapro.git
+cd Stratapro
 
 # 安装Python依赖
 pip install requests pandas numpy pillow
@@ -121,7 +121,7 @@ python3 scripts/market_report_v8.py
 crontab -e
 
 # 每日16:00自动生成日报（周一至周五）
-0 16 * * 1-5 cd /path/to/a-stock-multi-source-trading-system && python3 scripts/market_report_v8.py
+0 16 * * 1-5 cd /path/to/Stratapro && python3 scripts/market_report_v8.py
 ```
 
 ### 2. 盘中预警模块（v3_alert_module.py）
@@ -148,7 +148,7 @@ python3 scripts/v3_alert_module.py
 crontab -e
 
 # 交易时段每30分钟预警（周一至周五9:30-14:50）
-30,0 9-14 * * 1-5 cd /path/to/a-stock-multi-source-trading-system && python3 scripts/v3_alert_module.py
+30,0 9-14 * * 1-5 cd /path/to/Stratapro && python3 scripts/v3_alert_module.py
 ```
 
 ### 3. 单股分析工具（analyze_stock.py）

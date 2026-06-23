@@ -1,3 +1,17 @@
+---
+name: Stratapro
+version: 1.0.0
+description: AI智能选股评估系统 · SKILL.md
+author: AtomCollide-智械工坊
+license: Apache-2.0
+triggers:
+  - 量化投资
+  - 策略回测
+  - 金融分析
+  - stratapro
+  - 深度方略
+---
+
 # AI智能选股评估系统 · SKILL.md
 > Skill Name：AI智能选股评估系统（动态权重版）
 > Version：v3.1（跨平台版）

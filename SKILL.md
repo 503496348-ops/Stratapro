@@ -1,7 +1,7 @@
 ---
 name: Stratapro
 version: 1.0.0
-description: AI智能选股评估系统 · SKILL.md
+description: "AI智能选股与量化投资分析系统。三维评估·动态权重·日报推送·美股/港股/A股支持。当需要分析股票、生成投资报告、回测策略、查看市场行情时使用。"
 author: AtomCollide-智械工坊
 license: Apache-2.0
 triggers:
@@ -13,6 +13,8 @@ triggers:
 ---
 
 # AI智能选股评估系统 · SKILL.md
+
+> 📖 详细文档见 `references/` 目录
 > Skill Name：AI智能选股评估系统（动态权重版）
 > Version：v3.1（跨平台版）
 > Author：汇金金融研究团队
@@ -230,3 +232,12 @@ python scripts/v3_market_cycle_v2.py
 ---
 
 > ⚠️ 免责声明：本skill所有输出仅供研究参考，不构成任何投资建议。用户据此操作，风险自担。
+
+## 工作流
+
+使用此技能时，按以下步骤执行：
+- [ ] 1. 确认用户需求和使用场景
+- [ ] 2. 加载相关代码和配置
+- [ ] 3. 执行核心功能
+- [ ] 4. 验证输出结果
+- [ ] 5. 反馈给用户

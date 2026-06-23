@@ -1,6 +1,6 @@
 ---
 name: Stratapro
-version: 1.0.0
+version: 3.1
 description: "AI智能选股与量化投资分析系统。三维评估·动态权重·日报推送·美股/港股/A股支持。当需要分析股票、生成投资报告、回测策略、查看市场行情时使用。"
 author: AtomCollide-智械工坊
 license: Apache-2.0
